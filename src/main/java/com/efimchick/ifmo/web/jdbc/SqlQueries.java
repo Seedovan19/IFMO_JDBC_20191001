@@ -6,7 +6,6 @@ package com.efimchick.ifmo.web.jdbc;
 public class SqlQueries {
     //Select all employees sorted by last name in ascending order
     //language=HSQLDB
-
     String select01 = "SELECT * FROM employee ORDER BY lastname ASC";
 
     //Select employees having no more than 5 characters in last name sorted by last name in ascending order
