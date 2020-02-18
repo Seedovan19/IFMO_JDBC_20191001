@@ -49,7 +49,4 @@ public class SqlQueries {
     //Name column containing manager lastname "manager".
     //language=HSQLDB
     String select10 = "SELECT employee1.lastname AS employee, employee2.lastname AS manager FROM employee employee1 LEFT JOIN employee employee2 ON employee1.manager=employee2.id";
-
-
-
 }
