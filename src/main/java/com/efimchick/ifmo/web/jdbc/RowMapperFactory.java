@@ -34,5 +34,6 @@ public class RowMapperFactory {
             }
         };
         return rowMapper;
+
     }
 }
