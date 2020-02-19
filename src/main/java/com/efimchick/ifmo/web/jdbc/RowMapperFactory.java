@@ -1,5 +1,6 @@
 package com.efimchick.ifmo.web.jdbc;
 
+import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.sql.ResultSet;
 import com.efimchick.ifmo.web.jdbc.domain.Employee;
